@@ -1,0 +1,263 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background:#1a1a1a !important;
+    color: white !important;
+    overflow: hidden !important;
+}
+
+/* =========================== Menu Desktop =========================== */
+
+.logo{
+    width:100px !important;
+}
+
+.nav-link:hover{
+    background:white !important;
+    color:black !important;
+}
+
+.nav-link{
+    color:white !important;
+}
+
+
+.navbar-collapse{
+    margin-left:150px !important;
+}
+
+.navbar{
+    z-index: 99 !important;
+}
+
+.bg-custom{
+    background: #1a1a1a !important;
+    opacity: .7 !important;
+}
+
+
+.navbar-nav li{
+    margin-left:150px !important;
+}
+/* =========================== End of Menu Desktop=========================== */
+
+/* =========================== Menu Mobile =========================== */
+
+@media only screen and (max-width: 600px) {
+
+    .navbar{
+        z-index: 99 !;
+    }
+    
+        .navbar-collapse{
+            margin-left:0px !important;
+            text-align: center;
+    
+            background:#1a1a1a !important;
+            z-index: 999 !important;
+            height:850px !important;
+            width:50px !important;
+        }
+        .navbar-nav li{
+            margin-left:0px !important;
+            margin-top:20px !important;
+        }
+    
+    
+    .navbar-nav{
+        background:#1a1a1a !important;
+    }    
+    
+    
+    .nav-item{
+        z-index:999;
+        background:#1a1a1a !important;
+        padding: 20px 0px !important;
+    }
+    
+    #myDesktopCarousel{
+        display:none !important;
+    }
+    
+      }
+    
+    /* =========================== End of Menu Mobile =========================== */
+
+       /* =========================== Banner =========================== */
+
+
+/* =========================== Banner 1 =========================== */
+.carousel-item{
+    height:856px !important;
+}
+
+.card-text-1{
+position:absolute !important;
+left:5%;
+bottom:40%;
+width:500px !important;
+font-family: "Lato", sans-serif;
+}
+
+.carousel-caption h2{
+text-transform: uppercase !important;
+text-align: center !important; 
+line-height:50px !important;
+font-size:42px;
+font-weight:bold !important;
+}
+
+.title-margin1{
+    margin-left:0px;
+}
+
+
+
+.special-text1{
+    color: #F77B33;
+}
+
+.line1{
+    border: 2px solid white;
+    width:350px;
+    margin-left:35px;
+}
+
+.banner-text1{
+    text-align: justify !important; 
+    margin-left:35px;
+}
+
+.btn-light{
+    padding:15px 50px;
+}
+
+
+
+/* =========================== End of Banner 1 =========================== */
+
+
+/* =========================== Banner 2 =========================== */
+
+.card-text-2{
+    position:absolute !important;
+    left:5%;
+    bottom:40%;
+    width:500px !important;
+    font-family: "Lato", sans-serif;
+}
+
+
+.special-text2{
+    color: red !important;
+}
+
+.banner-text2{
+    text-align: justify !important; 
+    margin-left:35px;
+}
+
+.line2{
+    border: 2px solid white;
+    width:400px;
+    margin-left:35px;
+}
+
+
+/* =========================== End of Banner 2 =========================== */
+
+/* =========================== Banner 3 =========================== */
+
+.card-text-3{
+    position:absolute !important;
+    left:5%;
+    bottom:40%;
+    width:700px !important;
+    font-family: "Lato", sans-serif;
+}
+
+
+.line3{
+    border: 2px solid white;
+    width:600px;
+    margin-left:50px;
+}
+
+.banner-text3{
+    text-align: center !important; 
+    margin-left:35px;
+}
+
+
+#carouselMobile{
+    display:none !important;
+}
+
+/* =========================== End of Banner 3 =========================== */
+
+        /* =========================== End of Banner =========================== */
+
+         /* =========================== Banner Mobile =========================== */
+
+
+         @media only screen and (max-width: 1650px) {
+
+            .carousel-item{
+                height:670px !important;
+            }
+        
+        
+        }
+
+        @media only screen and (max-width: 600px) {
+
+            #carouselMobile{
+                display:block !important;
+            }
+
+            #carouselExampleCaptions{
+                display:none;
+            }
+
+            .carousel-item{
+                height:600px !important;
+            }
+
+            .banner-image{
+                height:100% !important;
+            }
+        
+            .card-text-mobile-1 {
+                margin-bottom:150px;
+            }
+            .card-text-mobile-2 {
+                margin-bottom:150px;
+            }
+            .card-text-mobile-3 {
+                margin-bottom:200px;
+            }
+
+
+            p{
+                display:none !important;
+            }
+
+            .card-text-mobile-1 h2, .card-text-mobile-2 h2, .card-text-mobile-3 h2{
+                font-size:36px;
+            }
+
+            hr{
+                display:none;
+            }
+        
+        }
+
+
+
+         
+
+         /* =========================== End of Banner Mobile =========================== */
