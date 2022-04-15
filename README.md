@@ -13,7 +13,7 @@
 
 ## 📝 Description
 
-> This is a simple Navbar and Banner Project, i've developet this to practice Bootstrap.
+> This is a simple Navbar and Banner Project, i've developed this to practice Bootstrap.
 
 
 
